@@ -5,6 +5,7 @@ const alien = {
     weight: '259kg'
 }
 
-for(let property in alien){
-    console.log(property + ':' + alien[property]);
+for(let element in alien){
+    console.log(element + ': ' +alien[element]);
 }
+

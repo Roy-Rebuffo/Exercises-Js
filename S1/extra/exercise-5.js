@@ -2,3 +2,10 @@ const products = [{name: 'Gorra de rodilla', sellCount: 10},{name: 'Pantalón de
 
 let totalSellCount = 0;
 
+for(let product of products){
+    totalSellCount += product.sellCount;
+}
+
+let sellCountAvg = totalSellCount / products.length;
+
+console.log(sellCountAvg);

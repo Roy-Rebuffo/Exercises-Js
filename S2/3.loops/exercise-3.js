@@ -2,7 +2,7 @@ const placesToTravel = [{id: 5, name: 'Japan'}, {id: 11, name: 'Venecia'}, {id: 
 
 
 for(let i=0;i<placesToTravel.length;i++){
-    let place=placesToTravel[i];
+    let place = placesToTravel[i];
     if(place.id===11 || place.id===40){
         placesToTravel.splice(i,1);
         i--;

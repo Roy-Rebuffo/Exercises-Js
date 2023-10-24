@@ -2,7 +2,7 @@ const toys = [{id: 5, name: 'Buzz MyYear'}, {id: 11, name: 'Action Woman'}, {id:
 
 for(let toy of toys){
     if(toy.name.includes('gato')){
-        let index=toys.indexOf(toy);
+        let index = toys.indexOf(toy);
         delete toys[index];
     }
 }
