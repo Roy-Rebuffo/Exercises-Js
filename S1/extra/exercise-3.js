@@ -5,13 +5,17 @@ let peliculaMediana = [];
 let peliculaGrande = [];
 
 for(let movie of movies){
-    if(movies.durationInMinutes<100){
-        console.log(peliculaPequeña.push([movies.name]));
+    if(movie.durationInMinutes<100){
+        peliculaPequeña.push(movie);
     }
-    else if(movies.durationInMinutes===100 || movie.durationInMinutes<200){
-        console.log(peliculaPequeña.push([movies.name]));
+    else if(movie.durationInMinutes<200){
+        peliculaMediana.push(movie);
     }
     else{
-        console.log(peliculaGrande.push([movies.name]))
+        peliculaGrande.push(movie);
     }
 }
+
+console.log(peliculaPequeña, peliculaMediana, peliculaGrande);
+
+
