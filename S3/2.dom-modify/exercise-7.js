@@ -1,5 +1,10 @@
-const node$$= document.querySelectorAll('.fn-remove-me');
 
-for(const node$$ of nodes$$){
-    node$$.remove();
+const p$$ = document.querySelectorAll('p.fn-remove-me');
+
+/*
+for(let elements of p$$){
+    if(elements.includes('.fn-remove-me')){
+        elements.remove();
+    }
 }
+*/

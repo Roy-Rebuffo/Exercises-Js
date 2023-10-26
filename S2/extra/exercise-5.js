@@ -3,6 +3,6 @@ function rollDice(side){
 }
 
 for(let i=0; i<50; i++){
-    console.log(rollDice(50));
+    console.log(rollDice(5));
 }
 

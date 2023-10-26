@@ -13,5 +13,4 @@ for(movie of movies){
         }
     }
 }
-
 console.log(movieCategories);

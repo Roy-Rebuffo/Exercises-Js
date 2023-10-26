@@ -1,3 +1,4 @@
+
 function findArrayIndex(array, text) {
     return array.indexOf(text);
 }
@@ -11,7 +12,7 @@ function removeItem(array, text){
 }
 let array =['Caracol', 'Mosquito', 'Salamandra', 'Ajolote']
 
-array= removeItem(array,'Mosquito');
+array = removeItem(array,'Mosquito');
 console.log(array);
 
 

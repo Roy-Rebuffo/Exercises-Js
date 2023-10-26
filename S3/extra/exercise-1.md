@@ -3,3 +3,4 @@ Basandote en el array siguiente, crea una lista ul > li dinámicamente en el htm
 ```js
 const countries = ['Japón', 'Nicaragua', 'Suiza', 'Australia', 'Venezuela'];
 ```
+
