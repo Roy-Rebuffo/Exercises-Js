@@ -16,6 +16,7 @@ for(let movie of movies){
     }
 }
 
-console.log(peliculaPequeña, peliculaMediana, peliculaGrande);
-
+console.log(peliculaPequeña);
+console.log(peliculaMediana);
+console.log(peliculaGrande);
 
